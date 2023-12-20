@@ -3,6 +3,7 @@
 // import './App.css'
 
 import FormOne from "./Components/FormOne";
+import SimpleForm from "./Components/SimpleForm";
 
 // function App() {
 //   const [formData, setFormData] = useState({
@@ -165,6 +166,7 @@ const App = () => {
   return (
     <div>
     {/* <FormOne/> */}
+    <SimpleForm/>
   
      
     </div>
