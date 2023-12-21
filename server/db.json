@@ -1,0 +1,137 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "mou",
+      "email": "mou@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "kiron",
+      "email": "kiron@gmail.com"
+    }
+  ],
+  "details": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "gender": "male",
+      "hobbies": [
+        "dance",
+        "development"
+      ],
+      "education": [
+        "ba"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "gender": "female",
+      "hobbies": [
+        "drawing",
+        "painting"
+      ],
+      "education": [
+        "ba",
+        "bca"
+      ]
+    },
+    {
+      "name": "Moumita Das",
+      "email": "alex.johnson@example.com",
+      "gender": "female",
+      "hobbies": [
+        "dance",
+        "painting",
+        "development"
+      ],
+      "id": "3"
+    },
+    {
+      "name": "Mou",
+      "email": "kk@gmail.com",
+      "gender": "female",
+      "hobbies": [
+        "drawing",
+        "dance"
+      ],
+      "id": "u8oW2M5"
+    },
+    {
+      "name": "priya",
+      "email": "md7031535187@gmail.com",
+      "gender": "female",
+      "hobbies": [
+        "drawing",
+        "dance"
+      ],
+      "education": [
+        "ba",
+        "bca",
+        "mca"
+      ],
+      "id": "gFyBcIR"
+    },
+    {
+      "name": "vvv",
+      "email": "doumita356@gmail.com",
+      "gender": "female",
+      "hobbies": [
+        "dance",
+        "drawing"
+      ],
+      "education": [
+        "mca",
+        "bca"
+      ],
+      "id": "oP6_ya9"
+    }
+  ],
+  "simpleForm": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "1234"
+    },
+    {
+      "name": "Moumita Das",
+      "email": "eve.holt@reqres.in",
+      "password": "123",
+      "id": "dVFPJcw"
+    },
+    {
+      "name": "Moumita Das",
+      "email": "eve.holt@reqres.in",
+      "password": "123",
+      "id": "hkEWLwc"
+    },
+    {
+      "name": "Moumita Das",
+      "email": "eve.holt@reqres.in",
+      "password": "123",
+      "id": "kC8ixSf"
+    },
+    {
+      "name": "Mou",
+      "email": "doumita356@gmail.com",
+      "password": "123",
+      "id": "jo_TgAN"
+    },
+    {
+      "name": "kiron",
+      "email": "eve.holt@reqres.in",
+      "password": "1238",
+      "id": "2pR4nf8"
+    },
+    {
+      "name": "priya",
+      "email": "kk@gmail.com",
+      "password": "123",
+      "id": "FiR8dx1"
+    }
+  ]
+}

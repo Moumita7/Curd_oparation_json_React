@@ -39,12 +39,20 @@ const SimpleForm = () => {
 
       
       });
+      getData()
         }catch(err){
             console.log(err)
         }
 
 
     }
+
+    let handleDelete=async(id)=>{
+        let res=await axios.delete(`http://localhost:3006/simpleForm/${id}`)
+        console.log(res.data)
+        // setData(res.data)
+        getData()
+        }
 
     const getData=async()=>{
             let res=await axios.get("http://localhost:3006/simpleForm")
@@ -53,7 +61,10 @@ const SimpleForm = () => {
     }
 useEffect(()=>{
 getData()
+// handleDelete()
 },[])
+
+
 
 // console.log(data)
 
@@ -87,6 +98,8 @@ getData()
                         <td className="border">{ele.name}</td>
                         <td className="border">{ele.email}</td>
                         <td className="border">{ele.password}</td>
+                        <button className="border p-2">edit</button>
+                        <button className="border p-2" onClick={()=>handleDelete(ele.id)}>delete</button>
                       
 
                         </tr>
